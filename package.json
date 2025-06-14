@@ -1,0 +1,30 @@
+{
+  "name": "npx-rudra",
+  "version": "1.0.0",
+  "description": "Interactive CLI portfolio for Rudra",
+  "main": "index.js",
+  "bin": {
+    "npx-rudra": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "repository": "git+https://github.com/rudra016/npx-rudra.git",
+  "keywords": [
+    "rudra",
+    "portfolio",
+    "cli"
+  ],
+  "author": "Rudra Sharma",
+  "license": "MIT",
+  "engine": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.6.3",
+    "open": "^10.1.2"
+  }
+}
