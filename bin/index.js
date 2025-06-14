@@ -30,10 +30,14 @@ const PROJECTS = [
  * Display header and personal information
  */
 function displayHeader() {
-  const text = figlet('RudraCodes', (err, data) => {
-    if (err) throw err;
-    console.log(gradient.atlas.multiline(data));
-  });
+    const text = figlet.textSync("Boo!", {
+        font: "Ghost",
+        horizontalLayout: "default",
+        verticalLayout: "default",
+        width: 100,
+        whitespaceBreak: true,
+      })
+    
 
   console.log(chalk.whiteBright.bold(text))
 
